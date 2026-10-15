@@ -13,7 +13,11 @@ public class PageBase : MonoBehaviour
     public GameObject AccountButton;
     public GameObject AccountIcon;
     public GameObject UsernameText;
+    public GameObject PageContent; // Everything on the page that isn't part of the background or top bar should be a child of this
 
+    public bool shouldScroll = false; // Whether or not the page should be able to scroll
+    public float scrollBottom = 0; // The lowest point the page should be allowed to scroll to
+    float scroll = 0; // Current scroll value, will be applied to the page content child
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +31,9 @@ public class PageBase : MonoBehaviour
     void Update()
     {
         
+        scroll = Mathf.Clamp(scroll,0,scrollBottom);
+        PageContent.gameObject.transform.position = new Vector3(960,540 + scroll,0);
+
         if (GlobalVars.signedIn)
         {
             SignInButton.SetActive(false);

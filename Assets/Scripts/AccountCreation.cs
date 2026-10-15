@@ -161,8 +161,10 @@ public class AccountCreation : MonoBehaviour
             GlobalVars.usernames.Add(usernameText);
             GlobalVars.emails.Add(emailText);
             GlobalVars.passwords.Add(passwordText);
+            GlobalVars.colors.Add(Color.red);
             GlobalVars.signedIn = true;
             GlobalVars.accountUsername = usernameText;
+            GlobalVars.accountColor = Color.red;
             PageBase.GetComponent<PageBase>().ChangeScene("AccountPage");
         }
     }

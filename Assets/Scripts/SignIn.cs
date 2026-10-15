@@ -49,8 +49,10 @@ public class SignIn : MonoBehaviour
         if (checkSignIn())
         {
             var usernameText = UsernameInput.GetComponent<TMP_InputField>().text;
+            var usernameIndex = GlobalVars.usernames.IndexOf(usernameText);
             GlobalVars.signedIn = true;
             GlobalVars.accountUsername = usernameText;
+            GlobalVars.accountColor = GlobalVars.colors[usernameIndex];
             PageBase.GetComponent<PageBase>().ChangeScene("AccountPage");
         }
     }

@@ -3,6 +3,7 @@ using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PageBase : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class PageBase : MonoBehaviour
             SignOutButton.SetActive(true);
             AccountButton.SetActive(true);
             AccountIcon.SetActive(true);
+            AccountIcon.GetComponent<Image>().color = GlobalVars.accountColor;
             UsernameText.SetActive(true);
             UsernameText.GetComponent<TMP_Text>().text = GlobalVars.accountUsername;
         }

@@ -2016,8 +2016,6 @@ MonoBehaviour:
   AccountIcon: {fileID: 2271362158938583281}
   UsernameText: {fileID: 7316433685824483579}
   PageContent: {fileID: 3922930204067524903}
-  shouldScroll: 0
-  scrollBottom: 0
 --- !u!114 &7153639390763902926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2033,5 +2031,4 @@ MonoBehaviour:
   Background: {fileID: 7533499827329313023}
   PageContent: {fileID: 3922930204067524903}
   shouldScroll: 1
-  scrollBottom: 300
   scrollSpeed: 40

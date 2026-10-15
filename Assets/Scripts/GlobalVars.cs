@@ -12,7 +12,9 @@ public static class GlobalVars
     public static List<String> usernames = new List<String>();
     public static List<String> emails = new List<String>();
     public static List<String> passwords = new List<String>();
+    public static List<Color> colors = new List<Color>();
 
     public static bool signedIn = false;
     public static String accountUsername = "";
+    public static Color accountColor = Color.red;
 }

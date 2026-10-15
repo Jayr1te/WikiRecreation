@@ -1903,6 +1903,7 @@ GameObject:
   - component: {fileID: 3821770988711601650}
   - component: {fileID: 5930402871207480769}
   - component: {fileID: 7485030184911939518}
+  - component: {fileID: 7153639390763902926}
   m_Layer: 5
   m_Name: PageBase
   m_TagString: Untagged
@@ -2017,4 +2018,20 @@ MonoBehaviour:
   PageContent: {fileID: 3922930204067524903}
   shouldScroll: 0
   scrollBottom: 0
-  scroll: 250
+--- !u!114 &7153639390763902926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8958325658271248902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c83a649030f89240a7c797d59960120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PageScrolling
+  Background: {fileID: 7533499827329313023}
+  PageContent: {fileID: 3922930204067524903}
+  shouldScroll: 1
+  scrollBottom: 300
+  scrollSpeed: 40

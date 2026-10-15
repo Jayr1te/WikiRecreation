@@ -11,6 +11,9 @@ public class AccountPage : MonoBehaviour
     public GameObject GreenSlider;
     public GameObject BlueSlider;
     public GameObject AccountIcon;
+    public GameObject successText;
+
+    float successTextTimer = 0.0f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -33,6 +36,16 @@ public class AccountPage : MonoBehaviour
         var usernameText = GlobalVars.accountUsername;
         var usernameIndex = GlobalVars.usernames.IndexOf(usernameText);
         EmailText.GetComponent<TMP_Text>().text = GlobalVars.emails[usernameIndex];
+
+        if (successTextTimer > 0)
+        {
+            successText.SetActive(true);
+            successTextTimer -= Time.deltaTime;
+        }
+        else
+        {
+            successText.SetActive(false);
+        }
     }
 
     public void ApplyColor()
@@ -45,5 +58,6 @@ public class AccountPage : MonoBehaviour
         var usernameText = GlobalVars.accountUsername;
         var usernameIndex = GlobalVars.usernames.IndexOf(usernameText);
         GlobalVars.colors[usernameIndex] = new Color(red,green,blue);
+        successTextTimer = 2.5f;
     }
 }

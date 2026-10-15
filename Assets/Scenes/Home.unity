@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -750}
+  m_AnchoredPosition: {x: -600, y: 250}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39118832
@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 39118833}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &39118833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,7 +288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -250}
+  m_AnchoredPosition: {x: -600, y: -1000}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147691911
@@ -322,7 +334,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 147691912}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &147691912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -534,7 +558,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: 250}
+  m_AnchoredPosition: {x: -600, y: -250}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &675714565
@@ -580,7 +604,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 675714566}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &675714566
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,7 +1239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -1000}
+  m_AnchoredPosition: {x: -600, y: 0}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025996272
@@ -1249,7 +1285,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1025996273}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1025996273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,7 +1509,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -500}
+  m_AnchoredPosition: {x: -600, y: -750}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1279313083
@@ -1507,7 +1555,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1279313084}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1279313084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1977,7 +2037,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1666813819}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1666813819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2131,7 +2203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: 0}
+  m_AnchoredPosition: {x: -600, y: -500}
   m_SizeDelta: {x: 500, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2048139711
@@ -2177,7 +2249,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2048139712}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4851251580688445489}
+        m_TargetAssemblyTypeName: PageBase, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PNF
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2048139712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2480,22 +2564,22 @@ PrefabInstance:
       addedObject: {fileID: 1542448621}
     - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 39118831}
+    - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1025996271}
+    - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 675714564}
     - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2048139710}
     - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 147691910}
-    - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1279313082}
     - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 39118831}
-    - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1025996271}
+      addedObject: {fileID: 147691910}
     - targetCorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1666813817}
@@ -2506,6 +2590,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5980958410895756222, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
   m_PrefabInstance: {fileID: 4851251580688445487}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4851251580688445489 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7485030184911939518, guid: 900d527fd95f9674bba25aa2c371b25f, type: 3}
+  m_PrefabInstance: {fileID: 4851251580688445487}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fcd4d16d53005948b32f6defa14fad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PageBase
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

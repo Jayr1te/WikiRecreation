@@ -20,5 +20,29 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PNF.unity
     guid: b397bd657d0463741b9bd23155a26a2b
+  - enabled: 1
+    path: Assets/Scenes/BlocksCat.unity
+    guid: 8f2b01c4b2c3e8240af7ddc217302565
+  - enabled: 1
+    path: Assets/Scenes/grassBlock.unity
+    guid: 86035ee4409ffd44e8f0de47c90e3591
+  - enabled: 1
+    path: Assets/Scenes/dirt.unity
+    guid: 3eb41440339539a4ab85aa92f60dc26f
+  - enabled: 1
+    path: Assets/Scenes/craftingTable.unity
+    guid: 6f9d464c56027ed459ec7d868487a20e
+  - enabled: 1
+    path: Assets/Scenes/cobblestone.unity
+    guid: d604e28ab31e5894295c48f88a74f4c6
+  - enabled: 1
+    path: Assets/Scenes/log.unity
+    guid: 96d29b3b1366480498ad0fc20e6e6387
+  - enabled: 1
+    path: Assets/Scenes/planks.unity
+    guid: 868a1fb408ed37a48afe21065bb6c6c6
+  - enabled: 1
+    path: Assets/Scenes/stone.unity
+    guid: f70f7a3aedaa67648aef5419e839a829
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

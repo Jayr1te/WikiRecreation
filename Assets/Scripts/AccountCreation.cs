@@ -1,11 +1,8 @@
 using System;
 using System.Linq;
 using TMPro;
-using UnityEditor.Rendering;
 using UnityEngine;
-using UnityEngine.UI;
 using System.Text.RegularExpressions;
-using System.Runtime.Serialization;
 
 public class AccountCreation : MonoBehaviour
 {
